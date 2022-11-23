@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../CSS/deleteRegisterStyles.css" />
+    <script src="../JAVASCRIPT/deleteRegister.js" defer></script>
+    <title>Terminal de deletar registros</title>
+  </head>
+  <body>
+    <nav class="navDeleteRegister">
+      <a href="./menu.html">Inicio</a>
+      <a href="./register.html">Terminal de registros</a>
+      <a href="./listRegister.html">Lista de registros</a>
+      <a href="./deleteRegister.html">Deletar registro</a>
+      <a href="./HTML/aboutForMe.html">Sobre</a>
+    </nav>
+    <form 
+    id="form"
+    class="deleteRegister">
+      <h2>Terminal</h2>
+      <h5>Lembrando que o produto deve estar registrado, para saber mais vá ate a aba lista de resgistros!</h5>
+      <h6>Deletando o produto ele irá sair completamente do sistema.</h6><br>
+      <label for="text">Deletar produto</label><br><br>
+      <input 
+      id="nameDelete"
+      class="boxInput"
+      type="text" 
+      placeholder="Nome do produto" /><br />
+      <h3>Ou</h3>
+      <br />
+      <input
+        id="codeDelete"
+        class="boxInput"
+        type="number"
+        placeholder="Codigo do produto"
+      /><br />
+      <button
+          class="submitDelete"
+          onclick="alert('Produto deletado com sucesso')"
+          type="submit"
+        >
+          Deletar
+        </button>
+      </form>
+  </body>
+</html>

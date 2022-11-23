@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 46%, rgba(121,9,58,1) 75%, rgba(255,0,86,1) 100%);
+}
+*{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+a{
+    border-style: groove;
+    border-radius: 9px;
+    margin: 0px 10px 0px 5px;
+    padding:5px;
+    background-color: rgb(2,0,36)
+}
+.navDeleteRegister{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 10px 5px 5px;
+}
+.deleteRegister{
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+}
+.boxInput{
+    color: black;
+    border-style: outset;
+    border-color: teal;
+    border-radius: 9px;
+    background-color: whitesmoke;
+    padding: 5px;
+}
+.submitDelete{
+    color: black;
+    margin-top: 15px;
+    border-style:inherit;
+    border-radius: 4px;
+    padding: 10px;
+}

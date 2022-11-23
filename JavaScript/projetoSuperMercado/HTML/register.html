@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../CSS/registerStyles.css" />
+   
+    <title>Terminal de registro</title>
+  
+  </head>
+
+  <body>
+    <nav class="navRegisterItens">
+      <a href="./menu.html">Inicio</a>
+      <a href="./register.html">Terminal de registros</a>
+      <a href="./listRegister.html">Lista de registros</a>
+      <a href="./deleteRegister.html">Deletar registro</a>
+      <a href="./HTML/aboutForMe.html">Sobre</a>
+    </nav>
+    <div >
+      <form id="form" class="registerItens">
+        <h2>Bem-vindo(a)</h2>
+        <br />
+        <br />
+        <h3>Terminal de cadastro</h3>
+        <h4>Cadastrar produtos</h4>
+        <br />
+        
+        <label for="nameProduct"></label>
+        <input id="nameProduct" name="nameProduct" class="boxInput" type="text" placeholder="Nome do produto"/>
+        <br />
+        <input id="codeProduct" name="codeProduct" class="boxInput" type="number" placeholder="Codigo do produto"/>
+        <br />
+        <input id="priceProduct" name="priceProduct" class="boxInput" type="value" placeholder="Preço do produto"/>
+        <br />
+        <input id="quantityProduct" name="quantityProduct" class="boxInput" type="number" placeholder="Quantidades do produto"/>
+        <br />
+        <button id="sendRegisterProduct" class="submitAndReset" type="submit">Cadastrar</button>
+        <br />
+        <button class="submitAndReset" onclick="alert('Formulário limpo')" type="reset">Limpar</button>
+      
+      </form>
+   
+    </div>
+    <script src="../JAVASCRIPT/Register.js"></script>
+  </body>
+</html>
